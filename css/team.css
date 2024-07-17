@@ -39,7 +39,7 @@ header ul li a {
 .players {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: start;
   justify-content: center;
 }
 .players .player {
@@ -92,7 +92,7 @@ header ul li a {
     left: 0;
     display: flex;
     background-color: rgba(255, 255, 255, 0, 299);
-    backdrop-filter: blur(7px);
+    backdrop-filter: blur(10px);
     justify-content: center;
     align-items: center;
     width: 100%;
