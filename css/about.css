@@ -117,8 +117,9 @@ header ul li a {
     top: 0;
     left: 0;
     display: flex;
-    background-color: rgba(255, 255, 255, 0, 299);
-    backdrop-filter: blur(7px);
+    bottom: -1;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     justify-content: center;
     align-items: center;
     width: 100%;
