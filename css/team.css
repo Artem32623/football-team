@@ -76,6 +76,7 @@ header ul li a {
   right: 10px;
   position: absolute;
   display: none;
+  z-index: 101;
 }
 @media (max-width: 950px) {
   .navbar .menu-hamburger {
@@ -87,7 +88,8 @@ header ul li a {
     margin-left: 0;
   }
   .nav-links {
-    position: absolute;
+    z-index: 100;
+    position: fixed;
     top: 0;
     left: 0;
     display: flex;

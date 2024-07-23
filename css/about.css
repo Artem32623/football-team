@@ -113,7 +113,7 @@ header ul li a {
     margin-left: 0;
   }
   .nav-links {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     display: flex;

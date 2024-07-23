@@ -9,13 +9,7 @@
   margin: 0 auto;
   max-width: 1180px;
 }
-.dima {
-  background: url(../images/IMG_6765.jpg);
-  background-size: cover;
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-position: 100%;
-}
+
 nav {
   display: flex;
   align-items: center;
@@ -146,7 +140,7 @@ nav ul li a {
     margin-left: 0;
   }
   .nav-links {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     display: flex;
